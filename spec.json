@@ -1,0 +1,51 @@
+{
+    "name":  "metawipe",
+    "logo":  "🧼",
+    "exe":  "MetaWipe.exe",
+    "desc":  "Free, open-source EXIF remover for Windows — strip GPS, camera and timestamp data from photos offline. 100 MB portable, MIT.",
+    "topics":  [
+                   "exif-remover",
+                   "metadata-remover",
+                   "strip-exif",
+                   "gps-removal",
+                   "photo-privacy",
+                   "privacy",
+                   "image-metadata",
+                   "exifcleaner-alternative",
+                   "exiftool-alternative",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "jpeg",
+                   "png",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **One-click folder clean** — every JPEG, PNG, WebP and TIFF in a tree loses GPS, camera and author fields",
+                     "✅ **Shows what it finds first** — a queue lists which files carry GPS, device model or timestamps before wiping",
+                     "✅ **Keeps color profiles** — ICC data can stay, so printing and color work survive the scrub",
+                     "✅ **Copies by default** — cleaned files go to a new folder; originals are never overwritten unless you opt in",
+                     "✅ **Coordinate readout** — GPS values shown as plain numbers before removal, no map service required",
+                     "✅ **No upload ever** — stripping happens locally; nothing about your photos leaves the machine",
+                     "✅ **100 MB self-contained exe** — runtime and imaging codecs bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **metawipe** | ExifTool | ExifCleaner | JPEG Stripper |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free, OSS | Free, OSS | Free |",
+                    "| Open source | **Yes** | Yes | Yes | No |",
+                    "| Batch folder in one click | **Yes** | Scripted | Yes | Yes |",
+                    "| Keeps ICC profiles option | **Yes** | Yes | No | No |",
+                    "| Copies instead of overwriting | **Yes** | Manual | No | No |",
+                    "| Native exe, no Electron | **Yes, 100 MB** | CLI | No | Dated UI |"
+                ],
+    "faqQ":  "how to remove GPS location data from photos on Windows?",
+    "faqA":  "Phones stamp exact coordinates into every shot, and that data rides along into marketplace listings, forums and group chats. metawipe lists which files carry GPS or camera serials, then strips selected fields while optionally keeping color profiles intact. It is a 100 MB portable exe, MIT, and photos never leave the machine.",
+    "s1":  "Dark queue (#121417, rose #FB7185): file rows with GPS found, camera model and author badges, big Wipe metadata button, folder drop zone above.",
+    "s2":  "Details panel: field checklist with GPS coordinates as numbers, keep-ICC toggle on, timestamp removal warning chip.",
+    "s3":  "Results screen: 46 files cleaned, 0 overwritten, copies saved to Cleaned subfolder, per-file field count column."
+}
